@@ -220,3 +220,12 @@ section{
 :-ms-input-placeholder {  
   text-align: center; 
 }
+
+@media only screen and (min-width: 600px) {
+  #start .form {
+    padding: 0 10rem;
+  }
+  .scoring h5{
+    font-size: 1rem;
+  }
+}
