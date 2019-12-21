@@ -222,11 +222,17 @@ section{
 }
 
 /* Responsive nya di akalain dulu */
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 600px){
   #start .form {
     padding: 0 10rem;
   }
   .scoring h5{
     font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1200px){
+  #start .form {
+    padding: 0 20rem;
   }
 }
