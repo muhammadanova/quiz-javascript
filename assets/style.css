@@ -221,6 +221,7 @@ section{
   text-align: center; 
 }
 
+/* Responsive nya di akalain dulu */
 @media only screen and (min-width: 600px) {
   #start .form {
     padding: 0 10rem;
