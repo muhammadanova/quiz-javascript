@@ -1,0 +1,222 @@
+html{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+body{
+  background: url("images/bg.jpg") no-repeat center center fixed rgba(32, 32, 32, 0.3);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-blend-mode: multiply;
+  margin: 0 !important;
+}
+
+.container{
+  max-width: 1280px !important;
+}
+
+section{
+  width: 100%;
+}
+
+#start{
+  padding: 7rem 10rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+#start img.img-start{
+  width: 150px;
+  margin-bottom: 1rem;
+}
+
+#start h2{
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 2px !important;
+}
+
+#start p{
+  margin-top: 10px;
+}
+
+#start .form{
+  padding: 0 20rem;
+}
+
+#main{
+  display: none;
+}
+
+#main .card-wrapper{
+  margin: 6.5rem 5rem 4rem 5rem;
+  padding: 2rem;
+  background-color: rgba(255, 255, 255, 0.85);
+  height: 450px;
+}
+
+#main .footer{
+  padding: 1rem 0 0rem 0;
+}
+
+#main .footer p{
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+.card-wrapper .question{
+  min-height: 50px;
+  background-color: royalblue;
+  border-radius: 5px;
+  padding: 1rem;
+  color: #ffffff;
+  letter-spacing: 1px;
+  float: left;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.card-wrapper .options{
+  float: left;
+  width: 100%;
+}
+
+.card-wrapper .options ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-wrapper .options ul li{
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 47%;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.card-wrapper .options ul li:hover{
+  background-color: rgba(0, 0, 0, 0.65);
+}
+
+.card-wrapper .options ul li.correct{
+  background-color: rgba(86, 143, 60, 0.85);
+}
+
+.card-wrapper .options ul li.wrong{
+  background-color: rgba(238, 57, 57, 0.85);
+}
+
+#desc{
+  text-align: center;
+}
+
+.ket{
+  margin-bottom: 5px;
+}
+
+.btn-lanjut{
+  margin-right: 10px;
+}
+
+.btn-main-lagi{
+  display: inline-block;
+}
+
+#sidebar{
+  background-color: rgba(0, 0, 0, 0.3);
+  height: auto !important;
+  min-height: 666px;
+  padding: 7.5rem 2rem;
+}
+
+#sidebar .mascot{
+  display: block;
+  width: 100%;
+  margin: auto;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+#sidebar img.img-sidebar{
+  width: 70px;
+  margin-bottom: 1rem;
+}
+
+#sidebar .username{
+  text-align: center;
+  color: #ffffff;
+}
+
+.scoring{
+  margin-top: 2rem;
+}
+
+.scoring .left{
+  text-align: left;
+}
+
+.scoring .right{
+  text-align: right;
+}
+
+.scoring h5{
+  color: #ffffff;
+  margin: 15px 0;
+}
+
+#user h5,
+#user h6{
+  color: #ffffff;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+#selesai{
+  margin-top: 3rem;
+}
+
+#selesai .btn-selesai{
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #721111;
+  font-weight: bold;
+}
+
+#gameOver{
+  margin-top: 6.5rem;
+  text-align: center;
+}
+
+#gameOver h4,
+#gameOver p{
+  margin-bottom: 10px;
+}
+
+.btn-over{
+  margin-top: 1rem;
+}
+
+::-webkit-input-placeholder {
+  text-align: center;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  text-align: center;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  text-align: center;  
+}
+
+:-ms-input-placeholder {  
+  text-align: center; 
+}

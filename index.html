@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Jadi Jutawan</title>
+  <link rel="icon" href="assets//images/favicon.png" type="image/png">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+</head>
+<body>
+  <div id="start" class="startPage">
+    <img src="assets/images//mascot.png" class="img-start" alt="/">
+    <h2>Selamat Datang di Quiz Jadi Jutawan</h2>
+    <p>Masukan nama anda untuk mulai bermain</p>
+    <div class="form">
+      <div class="form-group">
+        <input type="text" id="username" value="" class="form-control" placeholder="Masukan nama anda">
+      </div>
+      <button onclick="startGame()" class="btn btn-light btn-sm"><i class="fa fa-users"></i>&nbsp;MULAI MAIN</button>
+    </div>
+  </div>
+  <section id="main" class="mainPage" onload="checkUser()">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-9">
+          <div class="card-wrapper">
+            <div class="question" id="questionBox"></div>
+            <div class="options">
+              <ul id="ul">
+                <li id="op1" onclick="jawaban(this)"></li>
+                <li id="op2" onclick="jawaban(this)"></li>
+                <li id="op3" onclick="jawaban(this)"></li>
+                <li id="op4" onclick="jawaban(this)"></li>
+              </ul>
+            </div>
+            <div id="desc"></div>
+            <div id="gameOver"></div>
+          </div>
+          <div class="footer">
+            <p>Quiz by Muhammad Anova Nurfaqih</p>
+          </div>
+        </div>
+        <div id="sidebar" class="col-md-3">
+          <div class="mascot">
+            <img src="assets/images//mascot.png" class="img-sidebar" alt="/">
+          </div>
+          <div id="user"></div>
+          <div class="scoring">
+            <div class="row">
+              <div class="col-md-2 left" id="noScore">
+                <h5 id="no1">1.</h5>
+                <h5 id="no2">2.</h5>
+                <h5 id="no3">3.</h5>
+                <h5 id="no4">4.</h5>
+                <h5 id="no5">5.</h5>
+              </div>
+              <div class="col-md-10 right" id="rpScore">
+                <h5 id="rp1"></h5>
+                <h5 id="rp2"></h5>
+                <h5 id="rp3"></h5>
+                <h5 id="rp4"></h5>
+                <h5 id="rp5"></h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="assets/main.js"></script>
+  <script src="assets/permainan.js"></script>
+</body>
+</html>
